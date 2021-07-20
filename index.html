@@ -11,22 +11,22 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css/">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="navigation">
         <nav>
-            <a href="#">Web <span class="header-studio"> Studio</span></a>
-            <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="portfolio.html">Портфолио</a></li>
+            <a  class="logo" href="#">Web <span class="studio"> Studio</span></a>
+            <ul class="nav-links">
+                <li><a  href="./index.html">Студия</a></li>
+                <li><a  href="portfolio.html">Портфолио</a></li>
                 <li><a href="#">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li class="e-mail-address"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="phone-number"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="links">  
+            <li ><a class="e-mail-address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li ><a class="phone-number"href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
@@ -40,26 +40,26 @@
         <section class="advantages">
             <ul class="advantages-list">
                 <li class="advantages-item1">
-                    <h3 class="advantages-item1-header">Внимание к деталям</h3>
-                    <p class="advantages-item1-text">Идейные соображения, а также начало повседневной работы по
+                    <h3 class="advantages-item-header">Внимание к деталям</h3>
+                    <p class="advantages-item-text">Идейные соображения, а также начало повседневной работы по
                         формированию позиции.</p>
                 </li>
 
                 <li class="advantages-item2">
-                    <h3 class="advantages-item2-header">Пунктуальность</h3>
-                    <p class="advantages-item2-text">Задача организации, в особенности же рамки и место обучения кадров
+                    <h3 class="advantages-item-header">Пунктуальность</h3>
+                    <p class="advantages-item-text">Задача организации, в особенности же рамки и место обучения кадров
                         влечет за собой.</p>
                 </li>
 
                 <li class="advantages-item3">
-                    <h3 class="advantages-item3-header">Планирование</h3>
-                    <p class="advantages-item3-text">Равным образом консультация с широким активом в значительной
+                    <h3 class="advantages-item-header">Планирование</h3>
+                    <p class="advantages-item-text">Равным образом консультация с широким активом в значительной
                         степени обуславливает.</p>
                 </li>
 
                 <li class="advantages-item4">
-                    <h3 class="advantages-item4-header">Современные технологии</h3>
-                    <p class="advantages-item4-text">Значимость этих проблем настолько очевидна, что реализация плановых
+                    <h3 class="advantages-item-header">Современные технологии</h3>
+                    <p class="advantages-item-text">Значимость этих проблем настолько очевидна, что реализация плановых
                         заданий.</p>
                 </li>
 
@@ -76,40 +76,41 @@
         </section>
         <!--our team-->
         <section class="our-team">
-            <h2 class="our-team-header">Наша команда</h2>
+            <h2 class="our-team-title">Наша команда</h2>
             <ul>
                 <li class="our-team-member"> <img width="270" src="images/imgteam1.jpg" alt="Игорь Демьяненко">
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="our-team-member-title">Игорь Демьяненко</h3>
+                    <p class="our-team-member-text">Product Designer</p>
                 </li>
                 <li class="our-team-member">
                     <img width="270" src="images/imgteam2.jpg" alt="Ольга Репина">
-                    <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="our-team-member-title">Ольга Репина</h3>
+                    <p class="our-team-member-text">Frontend Developer</p>
                 </li>
                 <li class="our-team-member">
                     <img width="270" src="images/imgteam3.jpg" alt="Николай Тарасов">
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <h3 class="our-team-member-title">Николай Тарасов</h3>
+                    <p class="our-team-member-text">Marketing</p>
                 </li>
                 <li class="our-team-member">
                     <img width="270" src="images/imgteam4.jpg" alt="Михаил Ермаков">
-                    <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
+                    <h3 class="our-team-member-title">Михаил Ермаков</h3>
+                    <p class="our-team-member-text">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
     <!--footer-->
     <footer>
-        <a href="#">Web<span class="footer-studio">Studio</span></a>
-        <ul>
-            <li class="e-mail-address"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="phone-number"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        <a class="logo" href="#">Web<span class="footer-studio">Studio</span></a>
         <p>
         <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
         </p>
+        <ul class="footer-links">
+            <li ><a class="footer-e-mail-address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li ><a class="footer-phone-number" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+        
 
     </footer>
 </body>

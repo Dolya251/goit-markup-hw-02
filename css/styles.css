@@ -1,0 +1,109 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+  color: #212121;
+}
+
+/*header*/
+.navigation {
+  background-color: #ffffff;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 16px;
+}
+.logo {
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 500;
+  color: #2196f3;
+}
+.studio {
+  color: #000000;
+}
+.nav-links,
+.e-mail-address,
+.phone-number :hover {
+  cursor: pointer;
+  color: #2196f3;
+}
+/*hero*/
+.hero {
+  font-style: Black;
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 900;
+  color: #ffffff;
+  background-color: #2f303a;
+  text-transform: uppercase;
+}
+.hero-button {
+  font-style: Bold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  background-color: #2196f3;
+  text-transform: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+/*advantages */
+
+.advantages-item-header {
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.advantages-item-text {
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+/*our job*/
+.our-job-header,
+.our-team-title {
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 700;
+}
+/*our team*/
+.our-team {
+  background-color: our-team;
+}
+.our-team-member-title {
+  font-style: medium;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+}
+.our-team-member-text {
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+/*footer*/
+footer {
+  background-color: #2f303a;
+}
+.footer-studio {
+  color: #ffffff;
+}
+.footer-adress {
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer-e-mail-address,
+.footer-phone-number {
+  color: #ffffff;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 24px;
+}

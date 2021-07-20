@@ -11,25 +11,25 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css/">
+    <link rel="stylesheet" href="./css/styles.css">
 
 
 </head>
 
 <body>
-    <header>
+    <header class="navigation">
         <nav>
-            <ul>
-                <li><a href="#">Web <span class="header-studio"> Studio</span></a></li>
+            <a class="logo" href="#">Web<span class="studio">Studio</span></a>
+            <ul class="nav-links">
                 <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
                 <li><a href="#">Контакты</a></li>
             </ul>
         </nav>
-        <!-- Link to e-mail address -->
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <!-- Link to phone number  -->
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <ul>
+            <li ><a class="e-mail-address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li ><a class="phone-number" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
     </header>
     <main>
         <!-- filters-->
@@ -43,47 +43,47 @@
         <!-- projects-->
         <ul>
             <li class="project1">
-                <img src="/portfolio img/pr1.jpg" alt="Технокряк">
+                <img src="/images/portfolio img/pr1.jpg" alt="Технокряк">
                 <h3>Технокряк</h3>
                 <p>Веб-сайт</p>
             </li>
             <li class="project2">
-                <img src="/portfolio img/pr2.jpg" alt="Постер New Orlean vs Golden Star">
+                <img src="/images/portfolio img/pr2.jpg" alt="Постер New Orlean vs Golden Star">
                 <h3>Постер New Orlean vs Golden Star</h3>
                 <p>Дизайн</p>
             </li>
             <li class="project3">
-                <img src="/portfolio img/pr3.jpg" alt="Ресторан Seafood">
+                <img src="/images/portfolio img/pr3.jpg" alt="Ресторан Seafood">
                 <h3>Ресторан Seafood</h3>
                 <p>Приложение</p>
             </li>
             <li class="project4">
-                <img src="/portfolio img/pr4.jpg" alt="Проект Prime">
+                <img src="/images/portfolio img/pr4.jpg" alt="Проект Prime">
                 <h3>Проект Prime</h3>
                 <p>Маркетинг</p>
             </li>
             <li class="project5">
-                <img src="/portfolio img/pr5.jpg" alt="Проект Boxes">
+                <img src="/images/portfolio img/pr5.jpg" alt="Проект Boxes">
                 <h3>Проект Boxes</h3>
                 <p>Приложение</p>
             </li>
             <li class="project6">
-                <img src="/portfolio img/pr6.jpg" alt="Inspiration has no Borders">
+                <img src="/images/portfolio img/pr6.jpg" alt="Inspiration has no Borders">
                 <h3>Inspiration has no Borders</h3>
                 <p>Веб-сайт</p>
             </li>
             <li class="project7">
-                <img src="/portfolio img/pr7.jpg" alt="Издание Limited Edition">
+                <img src="/images/portfolio img/pr7.jpg" alt="Издание Limited Edition">
                 <h3>Издание Limited Edition</h3>
                 <p>Дизайн</p>
             </li>
             <li class="project8">
-                <img src="/portfolio img/pr8.jpg" alt=">Проект LAB">
+                <img src="/images/portfolio img/pr8.jpg" alt=">Проект LAB">
                 <h3>Проект LAB</h3>
                 <p>Маркетинг</p>
             </li>
             <li class="project9">
-                <img src="/portfolio img/pr9.jpg" alt="Growing Business">
+                <img src="/images/portfolio img/pr9.jpg" alt="Growing Business">
                 <h3>Growing Business</h3>
                 <p>Приложение</p>
             </li>
@@ -92,10 +92,16 @@
     </main>
     <!--footer-->
     <footer>
-        <a href="#">Web<span class="footer-studio">Studio</span></a>
+        <a class="logo" href="#">Web<span class="footer-studio">Studio</span></a>
+        <p>
         <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        </p>
+        <ul class="footer-links">
+            <li ><a class="footer-e-mail-address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="footer-phone-number"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+    
+    
     </footer>
 </body>
 
