@@ -3,28 +3,33 @@ body {
   background-color: #e5e5e5;
   color: #212121;
 }
-
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
 /*header*/
 .navigation {
   background-color: #ffffff;
   font-style: Medium;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.172;
 }
 .logo {
   font-family: Raleway;
   font-style: Bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.174;
   font-weight: 500;
   color: #2196f3;
 }
 .studio {
   color: #000000;
 }
-.nav-links,
-.e-mail-address,
-.phone-number :hover {
+.nav-links :hover {
   cursor: pointer;
   color: #2196f3;
 }
@@ -32,7 +37,7 @@ body {
 .hero {
   font-style: Black;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 0, 733;
   font-weight: 900;
   color: #ffffff;
   background-color: #2f303a;
@@ -42,25 +47,30 @@ body {
   font-style: Bold;
   font-size: 16px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 0, 533;
   background-color: #2196f3;
   text-transform: none;
   color: #ffffff;
   cursor: pointer;
+}
+.e-mail-address,
+.phone-number :hover {
+  cursor: pointer;
+  color: #2196f3;
 }
 /*advantages */
 
 .advantages-item-header {
   font-style: Bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 0, 875;
   font-weight: 700;
   text-transform: uppercase;
 }
 .advantages-item-text {
   font-style: Regular;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 0, 583;
   color: #757575;
 }
 /*our job*/
@@ -68,23 +78,23 @@ body {
 .our-team-title {
   font-style: Bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 0, 857;
   font-weight: 700;
 }
 /*our team*/
 .our-team {
-  background-color: our-team;
+  background-color: #f5f4fa;
 }
 .our-team-member-title {
   font-style: medium;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 0, 842;
   font-weight: 500;
 }
 .our-team-member-text {
   font-style: Regular;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1, 187;
   color: #757575;
 }
 /*footer*/
@@ -95,9 +105,9 @@ footer {
   color: #ffffff;
 }
 .footer-adress {
-  font-style: Regular;
+  font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1, 714;
   color: #ffffff;
 }
 .footer-e-mail-address,
@@ -105,5 +115,12 @@ footer {
   color: #ffffff;
   font-style: Regular;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1, 714;
+}
+/*portfolio*/
+/* filters*/
+.filter-oll {
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 1, 625;
 }
