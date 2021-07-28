@@ -8,6 +8,7 @@
   --accent-bt-color: #188ce8;
   --main-bt-color: #f5f4fa;
   --new-accent-color: #000000;
+  --border-accent-color: #eeeeee;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -122,6 +123,23 @@ body {
   letter-spacing: 0.03em;
   color: var(--p-text-color);
 }
+.client-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /*footer*/
 footer {
   background-color: var(--primary-bg-color);
@@ -170,4 +188,10 @@ footer {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--p-text-color);
+}
+.container:hover,
+.container:focus {
+  background: var(--primary-wite-color);
+  border: 1px solid var(--border-accent-color);
+  box-sizing: border-box;
 }
