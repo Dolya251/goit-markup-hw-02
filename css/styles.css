@@ -3,7 +3,7 @@
   --primary-grey-color: #f5f4fa;
   --primary-wite-color: #ffffff;
   --primary-text-color: #212121;
-  --p-text-color: #757575;
+  --text-color: #757575;
   --accent-color: #2196f3;
   --accent-bt-color: #188ce8;
   --main-bt-color: #f5f4fa;
@@ -20,17 +20,17 @@ body {
   padding: 0;
   margin: 0;
 }
-.link {
+/*link {
   color: var(--primary-text-color);
   text-decoration: none;
-}
+}*/
 .link:hover,
 .link:focus {
   color: var(--accent-color);
   cursor: pointer;
 }
 /*header*/
-.navigation {
+.sitenav {
   background-color: var(--primary-wite-color);
   font-weight: 500;
   font-size: 14px;
@@ -97,7 +97,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--p-text-color);
+  color: var(--text-color);
 }
 /*our job*/
 .our-job-header,
@@ -122,7 +122,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--p-text-color);
+  color: var(--text-color);
 }
 .client-title {
   font-weight: bold;
@@ -192,11 +192,14 @@ footer {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--p-text-color);
+  color: var(--text-color);
 }
-.container:hover,
-.container:focus {
+.project:hover,
+.project:focus {
   background: var(--primary-wite-color);
   border: 1px solid var(--border-accent-color);
   box-sizing: border-box;
+}
+.portfolio-card-box {
+  text-decoration: none;
 }
