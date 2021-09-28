@@ -20,10 +20,10 @@ body {
   padding: 0;
   margin: 0;
 }
-/*link {
+.navigation-item {
   color: var(--primary-text-color);
   text-decoration: none;
-}*/
+}
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -49,7 +49,7 @@ body {
 .studio {
   color: var(--new-accent-color);
 }
-.link-current {
+.current {
   color: var(--accent-color);
   text-decoration: none;
 }
