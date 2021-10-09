@@ -20,15 +20,7 @@ body {
   padding: 0;
   margin: 0;
 }
-.navigation-item {
-  color: var(--primary-text-color);
-  text-decoration: none;
-}
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-  cursor: pointer;
-}
+
 /*header*/
 .sitenav {
   background-color: var(--primary-wite-color);
@@ -36,6 +28,19 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.navigation-link,
+.contacts-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.navigation-link:hover,
+.contacts-link:hover,
+.navigation-link:focus,
+.contacts-link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
 }
 .logo {
   font-family: Raleway;
@@ -45,6 +50,7 @@ body {
   font-weight: 500;
   color: var(--accent-color);
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .studio {
   color: var(--new-accent-color);
@@ -149,14 +155,20 @@ footer {
   color: var(--primary-wite-color);
 }
 .footer-adress,
-.footer-e-mail-address,
-.footer-phone-number {
+.footer-contacts-link,
+.footer-contacts-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: var(--primary-wite-color);
 }
+.footer-contacts-link,
+.footer-contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /*portfolio*/
 /* filters*/
 .filter {
